@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first page</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHUWs2_uE-FIImMvD9fYmbOtSTr6OkLQsXFw&s" type="image/x-icon/png">
+    <meta name="description" content="A simple HTML example page demonstrating headings, lists, forms, media, and links.">
+    <meta name="robots" content="index, follow">
+   
+</head>
+<body>
+    <h1>Hello</h1>
+    <h2>Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+
+    <hr>
+    <p>Lorem ipsum <br> dolor sit amet <br> consectetur adipisicing elit.</p>
+    <p>Welcome to <b>Sheryians</b></p>
+    <p>Welcome to <strong>Sheryians</strong></p>
+    <p><abbr title="Hypertext Markup Language">HTML</abbr> is <del>very</del> important.</p>
+    <p>Welcome to <i>Sheryians</i></p>
+    <p>Welcome to <em>Sheryians</em></p>
+    <p>Welcome to <u>Sheryians</u></p>
+
+    <p>2<sup>2</sup> = 4</p>
+    <p>H<sub>2</sub>O = Water</p>
+
+    <hr>
+    <ol reversed>
+        <li>Harsh</li>
+        <li>Sarthak</li>
+        <li>Ritik</li>
+        <li>Arjun</li>
+        <li>Sagar</li>
+    </ol>
+
+    <ul>
+        <li>Harsh</li>
+        <li>Sarthak</li>
+        <li>Ritik</li>
+        <li>Arjun</li>
+        <li>Sagar</li>
+    </ul>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, sit?</dd>
+        <dt>CSS</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ad.</dd>
+    </dl>
+
+    <hr>
+    <a href="/akarsh.JPG" download="villan">Download it</a><br>
+    <a href="https://www.instagram.com/sarthack.sharma/" target="_blank" rel="noopener noreferrer">Go to Instagram</a><br>
+    <a href="mailto:test@example.com" target="_blank" rel="noopener noreferrer">Go to email</a><br>
+    <a href="tel:+919999999999" target="_blank" rel="noopener noreferrer">Go to phone</a><br>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer">Amazon</a>
+
+    <br><br>
+    <details>
+        <summary>Click here please</summary>
+        <ul>
+            <li>Hahaha</li>
+            <li>hihihi</li>
+            <li>huihuihui</li>
+        </ul>
+    </details>
+
+    <br><br>
+    <label for="names">Select Name:</label>
+    <select name="name" id="names" title="Select a name">
+        <option value="Harsh">Harsh</option>
+        <option value="Sarthak">Sarthak</option>
+        <option value="Ritik">Ritik</option>
+    </select>
+
+    <hr>
+    <img height="100" src="./panda.jpg" alt="Panda image">
+
+    <br>
+    <video height="200" autoplay loop muted controls src="./video.mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <br>
+    <audio controls src="./faaa.mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <br>
+    <hr>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sarthak</td>
+                <td>Male</td>
+                <td>Bhopal</td>
+            </tr>
+            <tr>
+                <td>Sarthak</td>
+                <td>Male</td>
+                <td>Bhopal</td>
+            </tr>
+            <tr>
+                <td>Sarthak</td>
+                <td>Male</td>
+                <td>Bhopal</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <form action="#" method="get">
+        <label for="name">
+            <input required type="text" id="name" name="name" placeholder="Enter name...">
+        </label><br>
+        <label for="password">
+            <input type="password" id="password" name="password" placeholder="Enter password...">
+        </label><br>
+        <label for="email">
+            <input type="email" id="email" name="email" placeholder="Enter email...">
+        </label><br>
+        <label for="date">
+            <input type="date" id="date" name="date">
+        </label><br>
+
+        <label>
+            <input type="radio" name="gen" value="male"> Male
+        </label>
+        <label>
+            <input type="radio" name="gen" value="female"> Female
+        </label>
+        <label>
+            <input type="radio" name="gen" value="other"> Other
+        </label>
+
+        <br>
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">I accept to do whatever you say.</label>
+        <br>
+        <label for="attachment">
+            <input type="file" id="attachment" name="attachment">
+        </label><br>
+        <label for="month">
+            <input type="text" id="month" name="month" placeholder="Enter month">
+        </label><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
